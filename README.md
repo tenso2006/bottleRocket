@@ -4,6 +4,14 @@ Currently using React throughout our codebase (which is written in ES6 Javascrip
 
 The API : https://s3.amazonaws.com/br-codingexams/restaurants.json
 
+
+Project Build and Set Up : create-react-app
+
+Technology Used:
+React
+SCSS
+HTML
+
 Responsive Design
 At Bottle Rocket, we work in a mobile-first RWD process. The comps you've been given only show mobile phone in portrait orientation. 
 Translate these comps to a 2-column view for popular tablet resolutions and higher.
