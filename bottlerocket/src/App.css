@@ -170,9 +170,12 @@ html, body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: grey;
   color: white;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

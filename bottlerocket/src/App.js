@@ -10,6 +10,8 @@ import grp1 from './grp1.png';
 import group1 from './group1.jpg';
 import mainPic from './main-pic.png';
 import bottleRocketLogo from './bottleRocketLogo.png';
+import lunchIcon from './Cuts/tab_lunch@2x.png';
+import internetsIcon from './Cuts/tab_internets@2x.png';
 
 class App extends Component {
   render() {
@@ -46,7 +48,13 @@ class App extends Component {
             <hr />
           </div>
         </div>
-        <div className='footer'>I am footer
+        <div className='footer'>
+          <div className='lunch-icon'>
+            <img src={lunchIcon} />
+          </div>
+          <div className='internets-icon'>
+            <img src={internetsIcon} />
+          </div>
         </div>
       </div>
     );
