@@ -1,0 +1,200 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%
+}
+/* body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+} */
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav {
+  background: #43e895;
+  font-family:'Avenir Next';
+  font-weight: 600;
+  color: white;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  max-height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+}
+.top-nav .control-button {
+  padding-top: 20px;
+  height: 40%;
+  padding-left: 35px;
+  padding-bottom: 10px;
+}
+.top-nav .control-button .fa-rotate-left{
+  padding: 0 0 10px 25px;
+  height: 18.219px;
+  width: 51px;
+}
+.top-nav .previous-icon {
+  /* padding: 0px 20px 10px 20px;
+  height: 45%; */
+}
+.top-nav .refresh-icon {
+  /* padding: 0px 20px 10px 0;
+  height: 45%; */
+}
+.top-nav .next-icon {
+  /* padding: 0px 20px 10px 0;
+  height: 45%; */
+
+}
+/* .head-nav {
+  font-family:'Avenir Next';
+  font-weight: 700;
+  background: #f1eaea;
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: baseline;
+  font-size: 17px;
+  align-items: center;
+  color: red;
+  width: 100%;
+} */
+
+.head-nav{
+
+  height: 70px;
+  width: 100%;
+  margin-top:70px;
+}
+
+.head-nav div{
+  float: left;
+  padding: 5px;
+  color: red;
+}
+
+/* .head-nav div:last-child{
+  float: right;
+} */
+.head-nav img {
+  float: right;
+  height: 60px;
+  width: 145px;
+}
+
+.head-nav .hambugger-icon {
+  background: red;
+  height: 100%;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.head-nav .hambugger-icon .fa {
+  font-size: 2.2em;
+}
+.head-nav .contact {
+  /* padding-left: 15px;
+  padding-right: 75px;
+  padding-top: 20px; */
+  float: left;
+  margin: 20px 0;
+  font-size: 1.6rem;
+}
+.head-nav .brand-logo {
+  /* padding-top: 20px; */
+  float: right;
+}
+
+.main-pic {
+
+  min-height: 35vh;
+  width: 100%;
+
+}
+
+.main-pic .back-image {
+  min-height: 35vh;
+  background-size: 100vh;
+  /* background: no-repeat center center fixed; */
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+
+.main-pic .back-image div {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+
+}
+.main-body {
+  height: auto;
+}
+.body-content {
+  height: 100%;
+  margin: 0 20px;
+}
+.body-content .body-content-head {
+  text-align: center;
+}
+.body-content .body-content-head {
+  text-align: center;
+}
+.body-content .body-content-detail {
+  line-height: 1.6rem;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
