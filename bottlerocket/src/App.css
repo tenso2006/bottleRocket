@@ -122,10 +122,8 @@ html, body {
 }
 
 .main-pic {
-
   min-height: 35vh;
   width: 100%;
-
 }
 
 .main-pic .back-image {
@@ -148,11 +146,11 @@ html, body {
 
 }
 .main-body {
-  height: auto;
+  height: -webkit-fill-available;
 }
 .body-content {
   height: 100%;
-  margin: 0 20px;
+  padding: 0 20px;
 }
 .body-content .body-content-head {
   text-align: center;
@@ -164,7 +162,33 @@ html, body {
   line-height: 1.6rem;
 }
 
+.body-content .red-line {
+  border-top: .4rem solid red;
+  border-bottom: .2rem solid grey;
+  height: 3rem;
+}
 
+.body-content .about-you {
+  margin-top: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.body-content .warn-info {
+  font-style: italic;
+  font-size: .8rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.body-content input {
+  height: 5vh;
+  width: 93%;
+  font-size: 1.2rem;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  padding: 0 .8rem;
+  background: lightgrey;
+}
 .footer {
   position: fixed;
   left: 0;
@@ -176,6 +200,30 @@ html, body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 10%;
+  padding-top: 0.5rem;
+}
+
+.footer .icon-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer .icon-container .icon {
+  height: 60%;
+}
+.footer .icon-container .icon img {
+  height: 2rem;
+}
+.footer .icon-container .icon-label {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    /* display: none; */
+  }
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
